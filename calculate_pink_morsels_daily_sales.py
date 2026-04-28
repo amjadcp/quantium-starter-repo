@@ -3,7 +3,7 @@ import glob
 import os
 
 input_path = './data'
-output_file = './processed_data/calculate_pink_morsels_daily_sales.csv'
+output_file = './processed_data/pink_morsels_daily_sales.csv'
 all_files = glob.glob(os.path.join(input_path, "*.csv"))
 print(f"Found {len(all_files)} files to process.")
 
